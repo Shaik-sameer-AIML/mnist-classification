@@ -117,7 +117,7 @@ print(x_single_prediction)
 ![download](https://github.com/Shaik-sameer-AIML/mnist-classification/assets/93427186/41d58e84-85d7-427c-a375-a65f54772b22)
 
 ### Classification Report:
-
+```
               precision    recall  f1-score   support
 
            0       0.98      0.99      0.99       980
@@ -134,8 +134,9 @@ print(x_single_prediction)
     accuracy                           0.98     10000
    macro avg       0.98      0.98      0.98     10000
 weighted avg       0.98      0.98      0.98     10000
-
+```
 ### Confusion Matrix:
+```
 313/313 [==============================] - 2s 5ms/step
 [[ 972    0    2    0    1    2    0    1    1    1]
  [   0 1131    1    2    0    0    0    0    1    0]
@@ -147,7 +148,7 @@ weighted avg       0.98      0.98      0.98     10000
  [   0    2    6    1    0    0    0 1015    3    1]
  [   4    0    2    2    0    3    0    2  959    2]
  [   1    3    0    2    3    5    0    6    4  985]]
-
+```
 
 
 ### New Sample Data Prediction
